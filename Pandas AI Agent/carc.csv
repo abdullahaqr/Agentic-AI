@@ -1,0 +1,296 @@
+CARCID,Code,Description,Denial
+1,1,Deductible Amount,No
+2,2,Coinsurance Amount,No
+3,3,Co-payment Amount,No
+4,4,"The procedure code is inconsistent with the modifier used. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+5,5,"The procedure code/type of bill is inconsistent with the place of service. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+6,6,"The procedure/revenue code is inconsistent with the patient's age. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+7,7,"The procedure/revenue code is inconsistent with the patient's gender. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+8,8,"The procedure code is inconsistent with the provider type/specialty (taxonomy). Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+9,9,"The diagnosis is inconsistent with the patient's age. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+10,10,"The diagnosis is inconsistent with the patient's gender. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+11,11,"The diagnosis is inconsistent with the procedure. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+12,12,"The diagnosis is inconsistent with the provider type. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+13,13,The date of death precedes the date of service.,Yes
+14,14,The date of birth follows the date of service.,Yes
+15,16,"Claim/service lacks information or has submission/billing error(s). Usage: Do not use this code for claims attachment(s)/other documentation. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.) Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+16,18,Exact duplicate claim/service (Use only with Group Code OA except where state workers' compensation regulations requires CO),Yes
+17,19,This is a work-related injury/illness and thus the liability of the Worker's Compensation Carrier.,Yes
+18,20,This injury/illness is covered by the liability carrier.,Yes
+19,21,This injury/illness is the liability of the no-fault carrier.,Yes
+20,22,This care may be covered by another payer per coordination of benefits.,Yes
+21,23,The impact of prior payer(s) adjudication including payments and/or adjustments. (Use only with Group Code OA),Yes
+22,24,Charges are covered under a capitation agreement/managed care plan.,Yes
+23,26,Expenses incurred prior to coverage.,Yes
+24,27,Expenses incurred after coverage terminated.,Yes
+25,29,The time limit for filing has expired.,Yes
+26,31,Patient cannot be identified as our insured.,Yes
+27,32,Our records indicate the patient is not an eligible dependent.,Yes
+28,33,Insured has no dependent coverage.,Yes
+29,34,Insured has no coverage for newborns.,Yes
+30,35,Lifetime benefit maximum has been reached.,Yes
+31,39,Services denied at the time authorization/pre-certification was requested.,Yes
+32,40,"Charges do not meet qualifications for emergent/urgent care. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+33,44,Prompt-pay discount.,No
+34,45,Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement. Usage: This adjustment amount cannot equal the total service or claim charge amount; and must not duplicate provider adjustment amounts (payments and contractual reductions) that have resulted from prior payer(s) adjudication. (Use only with Group Codes PR or CO depending upon liability),No
+35,49,"This is a non-covered service because it is a routine/preventive exam or a diagnostic/screening procedure done in conjunction with a routine/preventive exam. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+36,50,"These are non-covered services because this is not deemed a 'medical necessity' by the payer. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+37,51,"These are non-covered services because this is a pre-existing condition. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+38,53,Services by an immediate relative or a member of the same household are not covered.,Yes
+39,54,"Multiple physicians/assistants are not covered in this case. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+40,55,"Procedure/treatment/drug is deemed experimental/investigational by the payer. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+41,56,"Procedure/treatment has not been deemed 'proven to be effective' by the payer. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+42,58,"Treatment was deemed by the payer to have been rendered in an inappropriate or invalid place of service. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+43,59,"Processed based on multiple or concurrent procedure rules. (For example multiple surgery or diagnostic imaging, concurrent anesthesia.) Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+44,60,Charges for outpatient services are not covered when performed within a period of time prior to or after inpatient services.,Yes
+45,61,Adjusted for failure to obtain second surgical opinion,Yes
+46,66,Blood Deductible.,No
+47,69,Day outlier amount.,No
+48,70,Cost outlier - Adjustment to compensate for additional costs.,No
+49,74,Indirect Medical Education Adjustment.,No
+50,75,Direct Medical Education Adjustment.,No
+51,76,Disproportionate Share Adjustment.,No
+52,78,Non-Covered days/Room charge adjustment.,Yes
+53,85,Patient Interest Adjustment (Use Only Group code PR),No
+54,89,Professional fees removed from charges.,No
+55,90,Ingredient cost adjustment. Usage: To be used for pharmaceuticals only.,Yes
+56,91,Dispensing fee adjustment.,No
+57,94,Processed in Excess of charges.,Yes
+58,95,Plan procedures not followed.,Yes
+59,96,"Non-covered charge(s). At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.) Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+60,97,"The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+61,100,Payment made to patient/insured/responsible party.,Yes
+62,101,Predetermination: anticipated payment upon completion of services or claim adjudication.,Yes
+63,102,Major Medical Adjustment.,Yes
+64,103,"Provider promotional discount (e.g., Senior citizen discount).",Yes
+65,104,Managed care withholding.,No
+66,105,Tax withholding.,No
+67,106,Patient payment option/election not in effect.,No
+68,107,"The related or qualifying claim/service was not identified on this claim. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+69,108,"Rent/purchase guidelines were not met. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+70,109,Claim/service not covered by this payer/contractor. You must send the claim/service to the correct payer/contractor.,Yes
+71,110,Billing date predates service date.,Yes
+72,111,Not covered unless the provider accepts assignment.,Yes
+73,112,Service not furnished directly to the patient and/or not documented.,Yes
+74,114,Procedure/product not approved by the Food and Drug Administration.,Yes
+75,115,"Procedure postponed, canceled, or delayed.",Yes
+76,116,The advance indemnification notice signed by the patient did not comply with requirements.,Yes
+77,117,Transportation is only covered to the closest facility that can provide the necessary care.,Yes
+78,118,ESRD network support adjustment.,Yes
+79,119,Benefit maximum for this time period or occurrence has been reached.,Yes
+80,121,Indemnification adjustment - compensation for outstanding member responsibility.,Yes
+81,122,Psychiatric reduction.,No
+82,128,Newborn's services are covered in the mother's Allowance.,Yes
+83,129,"Prior processing information appears incorrect. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+84,130,Claim submission fee.,No
+85,131,Claim specific negotiated discount.,No
+86,132,Prearranged demonstration project adjustment.,No
+87,133,The disposition of this service line is pending further review. (Use only with Group Code OA). Usage: Use of this code requires a reversal and correction when the service line is finalized (use only in Loop 2110 CAS segment of the 835 or Loop 2430 of the 837).,Yes
+88,134,Technical fees removed from charges.,No
+89,135,Interim bills cannot be processed.,Yes
+90,136,Failure to follow prior payer's coverage rules. (Use only with Group Code OA),Yes
+91,137,"Regulatory Surcharges, Assessments, Allowances or Health Related Taxes.",Yes
+92,139,Contracted funding agreement - Subscriber is employed by the provider of services. Use only with Group Code CO.,Yes
+93,140,Patient/Insured health identification number and name do not match.,Yes
+94,142,Monthly Medicaid patient liability amount.,Yes
+95,143,Portion of payment deferred.,No
+96,144,"Incentive adjustment, e.g. preferred product/service.",No
+97,146,Diagnosis was invalid for the date(s) of service reported.,Yes
+98,147,Provider contracted/negotiated rate expired or not on file.,Yes
+99,148,"Information from another provider was not provided or was insufficient/incomplete. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+100,149,Lifetime benefit maximum has been reached for this service/benefit category.,Yes
+101,150,Payer deems the information submitted does not support this level of service.,Yes
+102,151,Payment adjusted because the payer deems the information submitted does not support this many/frequency of services.,Yes
+103,152,"Payer deems the information submitted does not support this length of service. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+104,153,Payer deems the information submitted does not support this dosage.,Yes
+105,154,Payer deems the information submitted does not support this day's supply.,Yes
+106,155,Patient refused the service/procedure.,Yes
+107,157,Service/procedure was provided as a result of an act of war.,Yes
+108,158,Service/procedure was provided outside of the United States.,Yes
+109,159,Service/procedure was provided as a result of terrorism.,Yes
+110,160,Injury/illness was the result of an activity that is a benefit exclusion.,Yes
+111,161,Provider performance bonus,Yes
+112,163,Attachment/other documentation referenced on the claim was not received.,Yes
+113,164,Attachment/other documentation referenced on the claim was not received in a timely fashion.,Yes
+114,166,These services were submitted after this payers responsibility for processing claims under this plan ended.,Yes
+115,167,"This (these) diagnosis(es) is (are) not covered. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+116,169,Alternate benefit has been provided.,Yes
+117,170,"Payment is denied when performed/billed by this type of provider. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+118,171,"Payment is denied when performed/billed by this type of provider in this type of facility. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+119,172,"Payment is adjusted when performed/billed by a provider of this specialty. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+120,173,Service/equipment was not prescribed by a physician.,Yes
+121,174,Service was not prescribed prior to delivery.,Yes
+122,175,Prescription is incomplete.,Yes
+123,176,Prescription is not current.,Yes
+124,177,Patient has not met the required eligibility requirements.,Yes
+125,178,Patient has not met the required spend down requirements.,Yes
+126,179,"Patient has not met the required waiting requirements. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+127,180,Patient has not met the required residency requirements.,Yes
+128,181,Procedure code was invalid on the date of service.,Yes
+129,182,Procedure modifier was invalid on the date of service.,Yes
+130,183,"The referring provider is not eligible to refer the service billed. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+131,184,"The prescribing/ordering provider is not eligible to prescribe/order the service billed. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+132,185,"The rendering provider is not eligible to perform the service billed. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+133,186,Level of care change adjustment.,Yes
+134,187,"Consumer Spending Account payments (includes but is not limited to Flexible Spending Account, Health Savings Account, Health Reimbursement Account, etc.)",Yes
+135,188,This product/procedure is only covered when used according to FDA recommendations.,Yes
+136,189,'Not otherwise classified' or 'unlisted' procedure code (CPT/HCPCS) was billed when there is a specific procedure code for this procedure/service,Yes
+137,190,Payment is included in the allowance for a Skilled Nursing Facility (SNF) qualified stay.,Yes
+138,192,"Non standard adjustment code from paper remittance. Usage: This code is to be used by providers/payers providing Coordination of Benefits information to another payer in the 837 transaction only. This code is only used when the non-standard code cannot be reasonably mapped to an existing Claims Adjustment Reason Code, specifically Deductible, Coinsurance and Co-payment.",Yes
+139,193,"Original payment decision is being maintained. Upon review, it was determined that this claim was processed properly.",Yes
+140,194,"Anesthesia performed by the operating physician, the assistant surgeon or the attending physician.",Yes
+141,195,Refund issued to an erroneous priority payer for this claim/service.,Yes
+142,197,Precertification/authorization/notification/pre-treatment absent.,Yes
+143,198,Precertification/notification/authorization/pre-treatment exceeded.,Yes
+144,199,Revenue code and Procedure code do not match.,Yes
+145,200,Expenses incurred during lapse in coverage,Yes
+146,201,"Patient is responsible for amount of this claim/service through 'set aside arrangement' or other agreement. (Use only with Group Code PR) At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+147,202,Non-covered personal comfort or convenience services.,Yes
+148,203,Discontinued or reduced service.,Yes
+149,204,This service/equipment/drug is not covered under the patient's current benefit plan,Yes
+150,205,Pharmacy discount card processing fee,No
+151,206,National Provider Identifier - missing.,Yes
+152,207,National Provider identifier - Invalid format,Yes
+153,208,National Provider Identifier - Not matched.,Yes
+154,209,"Per regulatory or other agreement. The provider cannot collect this amount from the patient. However, this amount may be billed to subsequent payer. Refund to patient if collected. (Use only with Group code OA)",Yes
+155,210,Payment adjusted because pre-certification/authorization not received in a timely fashion,Yes
+156,211,"National Drug Codes (NDC) not eligible for rebate, are not covered.",Yes
+157,212,Administrative surcharges are not covered,Yes
+158,213,Non-compliance with the physician self referral prohibition legislation or payer policy.,Yes
+159,215,Based on subrogation of a third party settlement,Yes
+160,216,Based on the findings of a review organization,Yes
+161,219,"Based on extent of injury. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') for the jurisdictional regulation. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF).",Yes
+162,222,"Exceeds the contracted maximum number of hours/days/units by this provider for this period. This is not patient specific. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+163,223,"Adjustment code for mandated federal, state or local law/regulation that is not already covered by another code and is mandated before a new code can be created.",Yes
+164,224,Patient identification compromised by identity theft. Identity verification required for processing this and future claims.,Yes
+165,225,Penalty or Interest Payment by Payer (Only used for plan to plan encounter reporting within the 837),Yes
+166,226,"Information requested from the Billing/Rendering Provider was not provided or not provided timely or was insufficient/incomplete. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+167,227,"Information requested from the patient/insured/responsible party was not provided or was insufficient/incomplete. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+168,228,"Denied for failure of this provider, another provider or the subscriber to supply requested information to a previous payer for their adjudication",Yes
+169,229,Partial charge amount not considered by Medicare due to the initial claim Type of Bill being 12X. Usage: This code can only be used in the 837 transaction to convey Coordination of Benefits information when the secondary payer's cost avoidance policy allows providers to bypass claim submission to a prior payer. (Use only with Group Code PR),Yes
+170,231,"Mutually exclusive procedures cannot be done in the same day/setting. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+171,232,Institutional Transfer Amount. Usage: Applies to institutional claims only and explains the DRG amount difference when the patient care crosses multiple institutions.,Yes
+172,233,Services/charges related to the treatment of a hospital-acquired condition or preventable medical error.,Yes
+173,234,"This procedure is not paid separately. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+174,235,Sales Tax,No
+175,236,This procedure or procedure/modifier combination is not compatible with another procedure or procedure/modifier combination provided on the same day according to the National Correct Coding Initiative or workers compensation state regulations/ fee schedule requirements.,Yes
+176,237,"Legislated/Regulatory Penalty. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+177,238,"Claim spans eligible and ineligible periods of coverage, this is the reduction for the ineligible period. (Use only with Group Code PR)",Yes
+178,239,Claim spans eligible and ineligible periods of coverage. Rebill separate claims.,Yes
+179,240,"The diagnosis is inconsistent with the patient's birth weight. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+180,241,Low Income Subsidy (LIS) Co-payment Amount,No
+181,242,Services not provided by network/primary care providers.,Yes
+182,243,Services not authorized by network/primary care providers.,Yes
+183,245,Provider performance program withhold.,Yes
+184,246,This non-payable code is for required reporting only.,Yes
+185,247,Deductible for Professional service rendered in an Institutional setting and billed on an Institutional claim.,No
+186,248,Coinsurance for Professional service rendered in an Institutional setting and billed on an Institutional claim.,No
+187,249,This claim has been identified as a readmission. (Use only with Group Code CO),No
+188,250,"The attachment/other documentation that was received was the incorrect attachment/document. The expected attachment/document is still missing. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT).",Yes
+189,251,"The attachment/other documentation that was received was incomplete or deficient. The necessary information is still needed to process the claim. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT).",Yes
+190,252,"An attachment/other documentation is required to adjudicate this claim/service. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT).",Yes
+191,253,Sequestration - reduction in federal payment,No
+192,254,"Claim received by the dental plan, but benefits not available under this plan. Submit these services to the patient's medical plan for further consideration.",Yes
+193,256,Service not payable per managed care contract.,Yes
+194,257,"The disposition of the claim/service is undetermined during the premium payment grace period, per Health Insurance Exchange requirements. This claim/service will be reversed and corrected when the grace period ends (due to premium payment or lack of premium payment). (Use only with Group Code OA)",Yes
+195,258,"Claim/service not covered when patient is in custody/incarcerated. Applicable federal, state or local authority may cover the claim/service.",Yes
+196,259,Additional payment for Dental/Vision service utilization.,Yes
+197,260,Processed under Medicaid ACA Enhanced Fee Schedule,Yes
+198,261,The procedure or service is inconsistent with the patient's history.,Yes
+199,262,Adjustment for delivery cost. Usage: To be used for pharmaceuticals only.,Yes
+200,263,Adjustment for shipping cost. Usage: To be used for pharmaceuticals only.,Yes
+201,264,Adjustment for postage cost. Usage: To be used for pharmaceuticals only.,Yes
+202,265,Adjustment for administrative cost. Usage: To be used for pharmaceuticals only.,Yes
+203,266,Adjustment for compound preparation cost. Usage: To be used for pharmaceuticals only.,Yes
+204,267,"Claim/service spans multiple months. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.)",Yes
+205,268,The Claim spans two calendar years. Please resubmit one claim per calendar year.,Yes
+206,269,"Anesthesia not covered for this service/procedure. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+207,270,"Claim received by the medical plan, but benefits not available under this plan. Submit these services to the patient's dental plan for further consideration.",Yes
+208,271,Prior contractual reductions related to a current periodic payment as part of a contractual payment schedule when deferred amounts have been previously reported. (Use only with Group Code OA),Yes
+209,272,Coverage/program guidelines were not met.,Yes
+210,273,Coverage/program guidelines were exceeded.,Yes
+211,274,Fee/Service not payable per patient Care Coordination arrangement.,Yes
+212,275,"Prior payer's (or payers') patient responsibility (deductible, coinsurance, co-payment) not covered. (Use only with Group Code PR)",Yes
+213,276,Services denied by the prior payer(s) are not covered by this payer.,Yes
+214,277,"The disposition of the claim/service is undetermined during the premium payment grace period, per Health Insurance SHOP Exchange requirements. This claim/service will be reversed and corrected when the grace period ends (due to premium payment or lack of premium payment). (Use only with Group Code OA)",Yes
+215,278,"Performance program proficiency requirements not met. (Use only with Group Codes CO or PI) Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+216,279,"Services not provided by Preferred network providers. Usage: Use this code when there are member network limitations. For example, using contracted providers not in the member's 'narrow' network.",Yes
+217,280,"Claim received by the medical plan, but benefits not available under this plan. Submit these services to the patient's Pharmacy plan for further consideration.",Yes
+218,281,Deductible waived per contractual agreement. Use only with Group Code CO.,Yes
+219,282,"The procedure/revenue code is inconsistent with the type of bill. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+220,283,Attending provider is not eligible to provide direction of care.,Yes
+221,284,Precertification/authorization/notification/pre-treatment number may be valid but does not apply to the billed services.,Yes
+222,285,Appeal procedures not followed,Yes
+223,286,Appeal time limits not met,Yes
+224,287,Referral exceeded,Yes
+225,288,Referral absent,Yes
+226,289,"Services considered under the dental and medical plans, benefits not available.",Yes
+227,290,"Claim received by the dental plan, but benefits not available under this plan. Claim has been forwarded to the patient's medical plan for further consideration.",Yes
+228,291,"Claim received by the medical plan, but benefits not available under this plan. Claim has been forwarded to the patient's dental plan for further consideration.",Yes
+229,292,"Claim received by the medical plan, but benefits not available under this plan. Claim has been forwarded to the patient's pharmacy plan for further consideration.",Yes
+230,293,Payment made to employer.,No
+231,294,Payment made to attorney.,No
+232,295,Pharmacy Direct/Indirect Remuneration (DIR),No
+233,296,Precertification/authorization/notification/pre-treatment number may be valid but does not apply to the provider.,Yes
+234,297,"Claim received by the medical plan, but benefits not available under this plan. Submit these services to the patient's vision plan for further consideration.",Yes
+235,298,"Claim received by the medical plan, but benefits not available under this plan. Claim has been forwarded to the patient's vision plan for further consideration.",Yes
+236,299,The billing provider is not eligible to receive payment for the service billed.,Yes
+237,300,"Claim received by the Medical Plan, but benefits not available under this plan. Claim has been forwarded to the patient's Behavioral Health Plan for further consideration.",Yes
+238,301,"Claim received by the Medical Plan, but benefits not available under this plan. Submit these services to the patient's Behavioral Health Plan for further consideration.",Yes
+239,302,Precertification/notification/authorization/pre-treatment time limit has expired.,Yes
+240,303,"Prior payer's (or payers') patient responsibility (deductible, coinsurance, co-payment) not covered for Qualified Medicare and Medicaid Beneficiaries. (Use only with Group Code CO)",Yes
+241,304,"Claim received by the medical plan, but benefits not available under this plan. Submit these services to the patient's hearing plan for further consideration.",Yes
+242,305,"Claim received by the medical plan, but benefits not available under this plan. Claim has been forwarded to the patient's hearing plan for further consideration.",Yes
+243,306,"Type of bill is inconsistent with the patient status. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+244,A0,Patient refund amount.,No
+245,A1,"Claim/Service denied. At least one Remark Code must be provided (may be comprised of either the NCPDP Reject Reason Code, or Remittance Advice Remark Code that is not an ALERT.) Usage: Use this code only when a more specific Claim Adjustment Reason Code is not available.",Yes
+246,A5,Medicare Claim PPS Capital Cost Outlier Amount.,No
+247,A6,Prior hospitalization or 30 day transfer requirement not met.,Yes
+248,A8,Ungroupable DRG.,Yes
+249,B1,Non-covered visits.,Yes
+250,B4,Late filing penalty.,Yes
+251,B7,"This provider was not certified/eligible to be paid for this procedure/service on this date of service. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+252,B8,"Alternative services were available, and should have been utilized. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+253,B9,Patient is enrolled in a Hospice.,Yes
+254,B10,Allowed amount has been reduced because a component of the basic procedure/test was paid. The beneficiary is not liable for more than the charge limit for the basic procedure/test.,Yes
+255,B11,The claim/service has been transferred to the proper payer/processor for processing. Claim/service not covered by this payer/processor.,Yes
+256,B12,Services not documented in patient's medical records.,Yes
+257,B13,Previously paid. Payment for this claim/service may have been provided in a previous payment.,Yes
+258,B14,Only one visit or consultation per physician per day is covered.,Yes
+259,B15,"This service/procedure requires that a qualifying service/procedure be received and covered. The qualifying other service/procedure has not been received/adjudicated. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present.",Yes
+260,B16,'New Patient' qualifications were not met.,Yes
+261,B20,Procedure/service was partially or fully furnished by another provider.,Yes
+262,B22,This payment is adjusted based on the diagnosis.,Yes
+263,B23,Procedure billed is not authorized per your Clinical Laboratory Improvement Amendment (CLIA) proficiency test.,Yes
+264,P1,"State-mandated Requirement for Property and Casualty, see Claim Payment Remarks Code for specific explanation. To be used for Property and Casualty only.",Yes
+265,P2,"Not a work related injury/illness and thus not the liability of the workers' compensation carrier Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') for the jurisdictional regulation. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF). To be used for Workers' Compensation only.",Yes
+266,P3,Workers' Compensation case settled. Patient is responsible for amount of this claim/service through WC 'Medicare set aside arrangement' or other agreement. To be used for Workers' Compensation only. (Use only with Group Code PR),Yes
+267,P4,"Workers' Compensation claim adjudicated as non-compensable. This Payer not liable for claim or service/treatment. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') for the jurisdictional regulation. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF). To be used for Workers' Compensation only",Yes
+268,P5,Based on payer reasonable and customary fees. No maximum allowable defined by legislated fee arrangement. To be used for Property and Casualty only.,Yes
+269,P6,"Based on entitlement to benefits. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') for the jurisdictional regulation. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF). To be used for Property and Casualty only.",Yes
+270,P7,The applicable fee schedule/fee database does not contain the billed code. Please resubmit a bill with the appropriate fee schedule/fee database code(s) that best describe the service(s) provided and supporting documentation if required. To be used for Property and Casualty only.,Yes
+271,P8,"Claim is under investigation. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') for the jurisdictional regulation. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF). To be used for Property and Casualty only.",Yes
+272,P9,No available or correlating CPT/HCPCS code to describe this service. To be used for Property and Casualty only.,Yes
+273,P10,Payment reduced to zero due to litigation. Additional information will be sent following the conclusion of litigation. To be used for Property and Casualty only.,Yes
+274,P11,The disposition of the related Property & Casualty claim (injury or illness) is pending due to litigation. To be used for Property and Casualty only. (Use only with Group Code OA),Yes
+275,P12,"Workers' compensation jurisdictional fee schedule adjustment. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Class of Contract Code Identification Segment (Loop 2100 Other Claim Related Information REF). If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Workers' Compensation only.",Yes
+276,P13,"Payment reduced or denied based on workers' compensation jurisdictional regulations or payment policies, use only if no other code is applicable. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') if the jurisdictional regulation applies. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Workers' Compensation only.",Yes
+277,P14,"The Benefit for this Service is included in the payment/allowance for another service/procedure that has been performed on the same day. Usage: Refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment Information REF), if present. To be used for Property and Casualty only.",Yes
+278,P15,Workers' Compensation Medical Treatment Guideline Adjustment. To be used for Workers' Compensation only.,Yes
+279,P16,Medical provider not authorized/certified to provide treatment to injured workers in this jurisdiction. To be used for Workers' Compensation only. (Use with Group Code CO or OA),Yes
+280,P17,Referral not authorized by attending physician per regulatory requirement. To be used for Property and Casualty only.,Yes
+281,P18,Procedure is not listed in the jurisdiction fee schedule. An allowance has been made for a comparable service. To be used for Property and Casualty only.,Yes
+282,P19,"Procedure has a relative value of zero in the jurisdiction fee schedule, therefore no payment is due. To be used for Property and Casualty only.",Yes
+283,P20,Service not paid under jurisdiction allowed outpatient facility fee schedule. To be used for Property and Casualty only.,Yes
+284,P21,"Payment denied based on the Medical Payments Coverage (MPC) and/or Personal Injury Protection (PIP) Benefits jurisdictional regulations, or payment policies. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') if the jurisdictional regulation applies. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty Auto only.",Yes
+285,P22,"Payment adjusted based on the Medical Payments Coverage (MPC) and/or Personal Injury Protection (PIP) Benefits jurisdictional regulations, or payment policies. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') if the jurisdictional regulation applies. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty Auto only.",Yes
+286,P23,"Medical Payments Coverage (MPC) or Personal Injury Protection (PIP) Benefits jurisdictional fee schedule adjustment. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Class of Contract Code Identification Segment (Loop 2100 Other Claim Related Information REF). If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty Auto only.",Yes
+287,P24,"Payment adjusted based on Preferred Provider Organization (PPO). Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Class of Contract Code Identification Segment (Loop 2100 Other Claim Related Information REF). If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty only. Use only with Group Code CO.",Yes
+288,P25,"Payment adjusted based on Medical Provider Network (MPN). Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Class of Contract Code Identification Segment (Loop 2100 Other Claim Related Information REF). If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty only. (Use only with Group Code CO).",Yes
+289,P26,"Payment adjusted based on Voluntary Provider network (VPN). Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Class of Contract Code Identification Segment (Loop 2100 Other Claim Related Information REF). If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty only. (Use only with Group Code CO).",Yes
+290,P27,"Payment denied based on the Liability Coverage Benefits jurisdictional regulations and/or payment policies. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') if the jurisdictional regulation applies. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty Auto only.",Yes
+291,P28,"Payment adjusted based on the Liability Coverage Benefits jurisdictional regulations and/or payment policies. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Insurance Policy Number Segment (Loop 2100 Other Claim Related Information REF qualifier 'IG') if the jurisdictional regulation applies. If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty Auto only.",Yes
+292,P29,"Liability Benefits jurisdictional fee schedule adjustment. Usage: If adjustment is at the Claim Level, the payer must send and the provider should refer to the 835 Class of Contract Code Identification Segment (Loop 2100 Other Claim Related Information REF). If adjustment is at the Line Level, the payer must send and the provider should refer to the 835 Healthcare Policy Identification Segment (loop 2110 Service Payment information REF) if the regulations apply. To be used for Property and Casualty Auto only.",Yes
+293,P30,Payment denied for exacerbation when supporting documentation was not complete. To be used for Property and Casualty only.,Yes
+294,P31,Payment denied for exacerbation when treatment exceeds time allowed. To be used for Property and Casualty only.,Yes
+295,P32,Payment adjusted due to Apportionment.,No

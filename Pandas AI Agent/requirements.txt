@@ -1,0 +1,9 @@
+flask
+pandas
+ollama
+langchain
+langchain-experimental
+# PyMySQL
+# mysql-connector-python
+langchain_ollama
+tabulate

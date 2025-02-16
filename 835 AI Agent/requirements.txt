@@ -1,0 +1,7 @@
+flask
+faiss-cpu
+langchain
+edi-835-parser
+ollama
+numpy
+python-dotenv

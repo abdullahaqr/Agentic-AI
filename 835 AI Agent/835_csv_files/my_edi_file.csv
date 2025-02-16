@@ -1,0 +1,6 @@
+,marker,patient,code,modifier,qualifier,allowed_units,billed_units,transaction_date,icn,charge_amount,allowed_amount,paid_amount,payer,start_date,end_date,rendering_provider,payer_classification,was_forwarded,adj_0_amount,adj_0_code,adj_0_group,adj_1_amount,adj_1_code,adj_1_group,ref_0_qual,ref_0_value,rem_0_code,rem_0_qual
+0,000109486056,Dummyfn Dummyln,99204,25,HC,1,1,2024-04-04,EX3699GS00001,469.0,130.36,0.0,AETNA,2024-03-19,2024-03-19,Dummy2 Dummy1,primary,False,338.64,45,CO,130.36,1,PR,6R,CP6M6LIFA0G3,N669,HE
+1,000109486056,Dummyfn Dummyln,20610,LT,HC,1,1,2024-04-04,EX3699GS00001,181.0,58.7,18.68,AETNA,2024-03-19,2024-03-19,Dummy2 Dummy1,primary,False,0.38,253,CO,19.64,1,PR,6R,CP6MQ4ISDBVZ,N669,HE
+2,000109498503,Dummy Dummy,99213,24,HC,1,1,2024-04-04,EYFDBB2JF0001,254.0,83.37,71.89,AETNA,2024-03-25,2024-03-25,Dummy Dummy,primary,False,1.47,253,CO,10.01,3,PR,6R,CP66SPLHSIWU,N669,HE
+3,000109498503,John Adams,72170,,HC,1,1,2024-04-04,EYFDBB2KB0000,78.0,24.99,0.0,AETNA,2024-03-25,2024-03-25,Dummy Dummy,primary,False,53.01,45,CO,24.99,3,PR,6R,CP66273YOL3Q,N669,HE
+4,000109489190,Phdummy Dummy,99214,,HC,1,1,2024-04-04,EYPDBB2HW0000,360.0,117.88,91.02,AETNA,2024-03-20,2024-03-20,Dummy Dummy,primary,False,1.86,253,CO,25.0,3,PR,6R,CP6649V6QW60,N669,HE
