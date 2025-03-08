@@ -46,6 +46,7 @@ def test():
 def query():
     user_question = request.json.get("question")
     # response = qa_chain.run(user_question)
+    print("I am here")
     response = agent.invoke(user_question)
     return jsonify({"answer": response})
 
